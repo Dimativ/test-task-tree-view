@@ -2,13 +2,15 @@
 Developed by Dmytro Lytvynenko (с) 2023
 
 [Link to website](https://test-task-tree-view.vercel.app/)
+If the link return 500 error, try reload the page
 
 This repository contains a program with authentication, marketing(landing) page and documents page, where an user can simulate creating of folders. Also application include tree-view created with react-arborist.
 ## Navigation through document
 * [Tools which I used](#Tools-which-I-used)
 * [Setup env file](#setup-env-file)
 * [Start the application](#Start-the-app)
-
+* [App overview](#App-overview)
+  
 ### Tools which I used
 
 <img align="left" alt="NextJs" width="50px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg" />
@@ -42,3 +44,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 npm i / yarn install
 npm run dev / yarn dev
 ```
+
+### App overview
+
+https://github.com/Dimativ/test-task-tree-view/assets/88792228/10ca7522-5392-42ac-98b5-5bf206205322
