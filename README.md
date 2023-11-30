@@ -1,7 +1,7 @@
 # Tree-view (test-task)
 Developed by Dmytro Lytvynenko (с) 2023
 
-[Link to website](test-task-tree-view.vercel.app)
+[Link to website](https://test-task-tree-view.vercel.app/)
 
 This repository contains a program with authentication, marketing(landing) page and documents page, where an user can simulate creating of folders. Also application include tree-view created with react-arborist.
 ## Navigation through document
