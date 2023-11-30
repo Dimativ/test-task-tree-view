@@ -9,7 +9,6 @@ import Logo from "@/app/(marketing)/_components/logo";
 import {ModeToggle} from "@/components/mode-toggle";
 import {Button} from "@/components/ui/button";
 import Link from "next/link";
-import {SignInButton} from "@clerk/nextjs";
 
 
 export const Navbar = () => {

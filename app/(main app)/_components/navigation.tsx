@@ -10,11 +10,13 @@ import {cn} from "@/lib/utils";
 import {UserItem} from "./user-item";
 import {Item} from "./item";
 import {FolderList} from "./folder-list";
+import {useSettings} from "@/hooks/use-settings";
 
 export const Navigation = () => {
     const pathname = usePathname();
     const isMobile = useMediaQuery("(max-width: 768px)");
 
+    const settings = useSettings();
 
     const isResizingRef = useRef(false);
     const sidebarRef = useRef<ElementRef<"aside">>(null);
@@ -121,7 +123,7 @@ export const Navigation = () => {
                 <div>
                     <UserItem/>
                     <Item
-                        onClick={() => {}}
+                        onClick={settings.onOpen}
                         label="Settings"
                         icon={Settings}
                     />

@@ -1,5 +1,3 @@
-
-
 import {redirect} from "next/navigation";
 
 import {Navigation} from "@/app/(main app)/_components/navigation";
