@@ -47,7 +47,7 @@ export const Node = ({node, style, dragHandle, tree}) => {
                 <span className="flex">
           {node.isEditing ? (
               <input
-                  className="bg-gray-100 w-[100px] h-5 "
+                  className="bg-gray-100 w-[100px] h-5 dark:text-black"
                   type="text"
                   defaultValue={node.data.name}
                   onFocus={(e) => e.currentTarget.select()}

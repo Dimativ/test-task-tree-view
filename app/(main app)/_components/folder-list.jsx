@@ -25,7 +25,7 @@ export const FolderList = () => {
             <input
                 type="text"
                 placeholder="Search..."
-                className="bg-gray-100 w-[169px] h-6 mb-3"
+                className="bg-gray-100 w-[169px] h-6 mb-3 dark:text-black rounded-md"
                 value={term}
                 onChange={(e) => setTerm(e.target.value)}
             />
